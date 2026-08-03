@@ -18,7 +18,6 @@ public class Main {
                 System.out.println("3. Показать список");
                 System.out.println("4. Удалить запись");
             }
-            //System.out.println("5. Заполнить список");
             System.out.print("Выберите пункт: ");
 
             String choice = scanner.nextLine();
@@ -83,14 +82,7 @@ public class Main {
                         }
                     }
                     break;
-                /*
-                case "5":
-                    people.add(new Person("Arina", LocalDate.of(2002, 7, 29), "female"));
-                    people.add(new Person("Sergei", LocalDate.of(2002, 8, 1), "male"));
-                    people.add(new Person("Dasha", LocalDate.of(2002, 10, 30), "female"));
-                    System.out.println("Список заполнен.");
-                    break;
-                */
+
                 default:
                     System.out.println("Неверный пункт меню.");
             }
